@@ -1,0 +1,44 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 400px;
+  padding: 15px;
+
+  border: 2px solid #ff0000;
+  border-radius: 6px;
+}
+
+.Counter__controls > button {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px 15px;
+
+  background-color: #fff;
+
+  border: solid 1px #ff0000;
+  border-radius: 6px;
+  outline: none;
+}
+
+.Counter__icons {
+  margin-right: 20px;
+}
+
+.Counter__number {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.Counter__value {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+
+  font-family: Georgia, serif;
+  font-size: 60px;
+  text-align: center;
+}
