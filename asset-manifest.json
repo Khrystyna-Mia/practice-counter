@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/practice-counter-todos/static/css/main.7acaea2f.css",
+    "main.js": "/practice-counter-todos/static/js/main.07d3183d.js",
+    "index.html": "/practice-counter-todos/index.html",
+    "main.7acaea2f.css.map": "/practice-counter-todos/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/practice-counter-todos/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
