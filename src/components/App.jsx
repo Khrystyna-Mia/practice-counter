@@ -1,7 +1,8 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Container from './Container';
-import CounterView from '../views/CounterView';
+import CounterView from 'views/CounterView';
+// import TodosView from 'views/TodosView';
 
 const App = () => (
   <>
@@ -19,6 +20,10 @@ const App = () => (
       <Routes>
         <Route path="/counter" element={<CounterView />} />
       </Routes>
+
+      {/* <Routes>
+        <Route path="/todos" element={<TodosView />} />
+      </Routes> */}
     </Container>
   </>
 );
